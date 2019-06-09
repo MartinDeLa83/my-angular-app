@@ -15,8 +15,8 @@ const httpOptions = {
 })
 export class AuthService {
 
-  private loginUrl = "http://my-spring-app/api/auth/signin";
-  private signupUrl = "http://my-spring-app/api/auth/signup";
+  private loginUrl = "http://104.211.52.163:8080/api/auth/signin";
+  private signupUrl = "http://104.211.52.163:8080/api/auth/signup";
 
   constructor(private http: HttpClient) {
   }
