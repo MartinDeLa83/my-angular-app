@@ -15,8 +15,8 @@ const httpOptions = {
 })
 export class AuthService {
 
-  private loginUrl = "http://104.45.157.90:8080/api/auth/signin";
-  private signupUrl = "http://104.45.157.90:8080/api/auth/signup";
+  private loginUrl = "http://13.92.178.234:8080/api/auth/signin";
+  private signupUrl = "http://13.92.178.234:8080/api/auth/signup";
 
   constructor(private http: HttpClient) {
   }
