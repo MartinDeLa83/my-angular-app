@@ -7,8 +7,8 @@ import { Observable } from 'rxjs';
 })
 export class UserService {
 
-  private userUrl = 'http://104.45.157.90:8080/api/test/user';
-  private pmUrl = 'http://104.45.157.90:8080/api/test/pm';
+  private userUrl = 'http://13.92.178.234:8080/api/test/user';
+  private pmUrl = 'http://13.92.178.234:8080/api/test/pm';
   private adminUrl = 'http://104.45.157.90:8080/api/test/admin';
 
   constructor(private http: HttpClient) { }
